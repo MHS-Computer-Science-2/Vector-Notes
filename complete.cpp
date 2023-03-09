@@ -9,6 +9,7 @@
 // #include statements add functions/features to your program:
 #include<iostream>
 #include<vector>
+#include<algorithm>
 
 using namespace std;
 
@@ -56,7 +57,17 @@ int main() {
 		cout << list[i] << endl;
 	}
 
+	//Sort the list
+	sort(list.begin(), list.end());
+
+	//Display after sorting
+	cout << "Displaying list after sorting: " << endl;
+	for (int i = 0; i < list.size(); i++) {
+		cout << list[i] << endl;
+	}
+
 
 	system("pause");
+	return 0;
 }
 
