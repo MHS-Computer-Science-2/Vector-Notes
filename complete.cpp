@@ -26,11 +26,11 @@ int main() {
 	cout << "Starting size of list: " << list.size() << endl;
 
 	//push_back() adds elements to the vector
-	list.push_back(1);
-	list.push_back(2);
-	list.push_back(3);
-	list.push_back(4);
 	list.push_back(5);
+	list.push_back(2);
+	list.push_back(1);
+	list.push_back(4);
+	list.push_back(3);
 	cout << "Size of list after adding 1-5: " << list.size() << endl;
 
 	//We can access and modify vector elements using an index number
