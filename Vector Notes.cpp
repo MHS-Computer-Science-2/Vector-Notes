@@ -44,8 +44,14 @@ int main() {
 	//Display list the loop way
 	cout << "Displaying list the loop way after erasing indexes 0 and 3: " << endl;
 
+	//Sort the list
+
+
+	//Display after sorting
+	cout << "Displaying list after sorting: " << endl;
 
 
 	system("pause");
+	return 0;
 }
 
